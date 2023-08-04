@@ -13,7 +13,7 @@ Gradio: A user-friendly web interface is created with Gradio, enabling users to 
 How It Works
 The script starts by importing necessary libraries and modules including FastAI and Gradio.
 
-It uses Bing Image Search API to download images of different types of bears.
+It uses Bing Image Search API to download images of different types of bears. To make your own, go to Azure's Bing Search API page and create/use your own API key. You will need to create an account. It is free.
 
 FastAI is used to create a DataBlock for the dataset and a deep learning model based on the ResNet18 architecture, which is trained with the images. The trained model is then exported for later use.
 
