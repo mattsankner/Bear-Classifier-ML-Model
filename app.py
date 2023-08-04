@@ -10,7 +10,7 @@ from fastbook import setup_book
 setup_book()
 
 # Set the key for Bing Image Search API
-key = os.environ.get('AZURE_SEARCH_KEY', 'fe8ce6de43b743ddbb0de4bb139da57b')
+key = os.environ.get('AZURE_SEARCH_KEY', 'ENTER_YOUR_API_KEY')
 
 # Download images of different types of bears
 bear_types = 'polar','grizzly', 'black', 'teddy'
