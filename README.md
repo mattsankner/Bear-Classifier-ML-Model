@@ -1,4 +1,4 @@
-# Bear-Classifier-with-Gradio-and-FastAI
+# Bear-Classifier-with-Gradio-and-FastAI(PyTorch)
 Link To Deployed Version: https://huggingface.co/spaces/mattsankner/bearspace
 
 This repository contains a machine learning model that classifies images of bears. The types of bears it can identify are Polar, Grizzly, Black, and Teddy bears. When faced with an image that is not one of the four, it will pick one of the four. The model is trained using the FastAI library, and a simple web interface is built using Gradio for users to upload and classify their images. Feel free to download a bear image of your choice from the internet and test it on the above deployed space. 
