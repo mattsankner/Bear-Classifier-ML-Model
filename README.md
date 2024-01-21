@@ -10,11 +10,15 @@ Experience the classifier in action: [BearSpace - Hugging Face](https://huggingf
 
 The Bear Image Classifier is designed to demonstrate the capabilities of modern machine learning in a fun and interactive way. Users can upload images of bears, and the model will predict the type of bear present in the image.
 
+![Screenshot of my app](/grizzlyscreenshot.png)
+
 ### Key Features
 
 - **Image Classification:** The model analyzes the image and accurately predicts the bear type.
 - **FastAI Library:** Utilizes the powerful and efficient FastAI library, an abstraction layer over PyTorch, to train deep learning models effectively.
 - **Gradio Web Interface:** Provides a simple, yet interactive interface for users to upload images and receive instant classification results.
+
+![Screenshot of my app](/polarsc2.png)
 
 ### Technical Workflow
 
@@ -32,6 +36,7 @@ The Bear Image Classifier is designed to demonstrate the capabilities of modern 
 
 4. **Execution:**
    - Launch the Gradio interface, enabling users to test the model via a web page.
+
 
 ### Getting Started
 
