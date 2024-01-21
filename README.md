@@ -1,31 +1,44 @@
-# Bear-Classifier-with-Gradio-and-FastAI(PyTorch)
-Link To Deployed Version: https://huggingface.co/spaces/mattsankner/bearspace
+# Bear Image Classifier
 
-This repository contains a machine learning model that classifies images of bears. The types of bears it can identify are Polar, Grizzly, Black, and Teddy bears. When faced with an image that is not one of the four, it will pick one of the four. The model is trained using the FastAI library, and a simple web interface is built using Gradio for users to upload and classify their images. Feel free to download a bear image of your choice from the internet and test it on the above deployed space. 
+Welcome to the Bear Image Classifier repository! This project showcases a sophisticated machine learning model capable of identifying four types of bears: Polar, Grizzly, Black, and Teddy. Using the FastAI library and a user-friendly Gradio web interface, this classifier stands out as a remarkable example of practical and accessible AI technology.
 
-Key Features
-Image Classification: The model takes an image as input and predicts the type of bear in the image.
+## Live Demo
 
-FastAI: The model is built using the FastAI library, which is an abstraction over PyTorch, making it easier to train high-performing deep learning models.
+Experience the classifier in action: [BearSpace - Hugging Face](https://huggingface.co/spaces/mattsankner/bearspace)
 
-Gradio: A user-friendly web interface is created with Gradio, enabling users to upload their images and see the classification results.
+## Project Overview
 
-How It Works
-The script starts by importing necessary libraries and modules including FastAI and Gradio.
+The Bear Image Classifier is designed to demonstrate the capabilities of modern machine learning in a fun and interactive way. Users can upload images of bears, and the model will predict the type of bear present in the image.
 
-It uses Bing Image Search API to download images of different types of bears. To make your own, go to Azure's Bing Search API page and create/use your own API key. You will need to create an account. It is free: https://www.microsoft.com/en-us/bing/apis/bing-web-search-api
+### Key Features
 
-FastAI is used to create a DataBlock for the dataset and a deep learning model based on the ResNet18 architecture, which is trained with the images. The trained model is then exported for later use.
+- **Image Classification:** The model analyzes the image and accurately predicts the bear type.
+- **FastAI Library:** Utilizes the powerful and efficient FastAI library, an abstraction layer over PyTorch, to train deep learning models effectively.
+- **Gradio Web Interface:** Provides a simple, yet interactive interface for users to upload images and receive instant classification results.
 
-Gradio is used to create a web interface where users can upload images. This interface calls a function that uses the trained model to classify the uploaded image and display the results. The script then launches the Gradio interface which can be used to classify images through a web page.
+### Technical Workflow
 
-Use Case
-This project is an example of how you can build a simple image classification system using deep learning and can be extended for other classification tasks.
+1. **Setup and Data Collection:** 
+   - Import necessary libraries and modules, including FastAI and Gradio.
+   - Use Bing Image Search API to gather images of different bear types.
 
+2. **Model Development:**
+   - Employ FastAI to create a DataBlock, facilitating dataset management.
+   - Construct and train a deep learning model using the ResNet18 architecture.
 
+3. **Deployment:**
+   - Export the trained model for web integration.
+   - Develop a Gradio web interface for real-time image classification.
 
+4. **Execution:**
+   - Launch the Gradio interface, enabling users to test the model via a web page.
 
+### Getting Started
 
+To replicate or build upon this project:
+- Obtain a Bing Search API key from [Microsoft Bing Web Search API](https://www.microsoft.com/en-us/bing/apis/bing-web-search-api).
+- Follow the script in this repository to set up the environment, train the model, and deploy the Gradio interface.
 
+## Use Case
 
-
+This project serves as a practical example of creating an image classification system using deep learning. It illustrates the process from data collection to model deployment and can be adapted for various other classification tasks.
