@@ -1,4 +1,3 @@
-
 # Import the necessary libraries and modules
 import os
 from fastbook import *
